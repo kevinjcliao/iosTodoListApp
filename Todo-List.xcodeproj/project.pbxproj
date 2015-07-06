@@ -13,6 +13,7 @@
 		10883DC91B4942E000CA4A8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10883DC81B4942E000CA4A8E /* Images.xcassets */; };
 		10883DCC1B4942E000CA4A8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10883DCA1B4942E000CA4A8E /* LaunchScreen.xib */; };
 		10883DD81B4942E000CA4A8E /* Todo_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10883DD71B4942E000CA4A8E /* Todo_ListTests.swift */; };
+		10B02E5D1B4A177400022559 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B02E5C1B4A177400022559 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		10883DD11B4942E000CA4A8E /* Todo-ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Todo-ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10883DD61B4942E000CA4A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10883DD71B4942E000CA4A8E /* Todo_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ListTests.swift; sourceTree = "<group>"; };
+		10B02E5C1B4A177400022559 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		10883DBE1B4942E000CA4A8E /* Todo-List */ = {
 			isa = PBXGroup;
 			children = (
+				10B02E5C1B4A177400022559 /* AddViewController.swift */,
 				10883DC11B4942E000CA4A8E /* AppDelegate.swift */,
 				10883DC31B4942E000CA4A8E /* ViewController.swift */,
 				10883DC51B4942E000CA4A8E /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			files = (
 				10883DC41B4942E000CA4A8E /* ViewController.swift in Sources */,
 				10883DC21B4942E000CA4A8E /* AppDelegate.swift in Sources */,
+				10B02E5D1B4A177400022559 /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				10883DDD1B4942E000CA4A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10883DDE1B4942E000CA4A8E /* Build configuration list for PBXNativeTarget "Todo-ListTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				10883DE01B4942E000CA4A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
