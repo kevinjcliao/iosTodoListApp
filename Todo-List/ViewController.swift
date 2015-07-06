@@ -9,11 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate {
-    var tasks = ["Say hello to mum for me", "Eat chicken pot pie", "Beat everybody at CoD"]
+    var tasks = [""]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -12,8 +12,8 @@ class AddViewController: UIViewController {
     @IBOutlet weak var newTaskField: UITextField!
 
     @IBAction func onAddPress(sender: AnyObject) {
-        println("Creating new task with text: " + newTaskField.text)
-        
+        println("Creating new task with text: " + newTaskField.text!)
+        performSegueWithIdentifier("returnToList", sender: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
